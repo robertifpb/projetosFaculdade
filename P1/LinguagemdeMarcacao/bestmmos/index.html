@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Best MMos" />
+    <meta name="author" content="Alex Robert and Luiz Felipe" />
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/script.js" defer></script>
+    <title>Best MMOs</title>
+  </head>
+
+  <body>
+    <figure class="fotocapa">
+      <img src="imagens/capa2.png" alt="capa" />
+    </figure>
+
+    <h1 class="tx">Os MMORPGS mais bem falados de 2024</h1>
+    <p class="tp">
+      No ano de 2024 tivemos uma boa lista de MMOs que ainda estão a todo vapor
+      no mercado, até mesmo aqueles que foram lançados há mais de 10 anos e isso
+      é incrível, para aqueles que dizem que o gênero está morrendo, os dados
+      abaixos só provam o contrário.
+    </p>
+    <br />
+    <h2 class="tz">
+      MMOs "antigos" com um número de jogadores ativos considerável:
+    </h2>
+
+    <ul class="tl">
+      <li>
+        <b>Final Fantasy XIV</b><i> (2010) -</i> "3.5 milhões de jogadores
+        ativos por mês"
+      </li>
+      <li>
+        <b>World of Warcraft</b><i> (2004) -</i> "3 milhões de jogadores ativos
+        por mês"
+      </li>
+      <li>
+        <b>Star wars The old Republic</b><i> (2011) -</i> "2.2 milhões de
+        jogadores ativos por mês"
+      </li>
+      <li>
+        <b>Runescape</b><i> (2001) -</i> "1.8 milhões de jogadores ativos por
+        mês"
+      </li>
+      <li>
+        <b>Guild Wars 2</b><i> (2012) -</i> "1.5 milhões de jogadores ativos por
+        mês"
+      </li>
+    </ul> <br>
+
+    
+    <h3 class="tz">
+      Aqui abaixo, temos alguns dos MMO's mais bem falados dos últimos meses:
+    </h3>
+    <p class="pp">
+      Clique em cada um deles para ver mais detalhes
+    </p>
+
+    <div class="container">
+      <div class="imagens">
+        <img
+          class="imagem"
+          src="imagens/gw2.png"
+          alt="Guild Wars 2"
+          data-link="https://www.guildwars2.com/en/"
+          data-texto=" 
+             Guild Wars 2 se destaca por seu sistema de combate dinâmico, eventos em mundo aberto e ausência de assinatura mensal. Ambientado em Tyria, os jogadores exploram um mundo vibrante enquanto participam de batalhas épicas e desenvolvem suas histórias pessoais."
+          onclick="abrirModal(this)"
+        />
+        <img
+          class="imagem"
+          src="imagens/wow.png"
+          alt="World of Warcraft"
+          data-link="https://worldofwarcraft.blizzard.com/pt-br/"
+          data-texto="
+             Um dos MMORPGs mais icônicos da história, World of Warcraft coloca os jogadores no vasto mundo de Azeroth, repleto de facções em guerra, raides desafiadoras e uma narrativa profunda. Com constantes expansões e atualizações, WoW continua evoluindo e atraindo novos aventureiros."
+             d
+          onclick="abrirModal(this)"
+        />
+        <img
+          class="imagem"
+          src="imagens/wow-1.png"
+          alt="RuneScape"
+          data-link="https://www.runescape.com/community"
+          data-texto="
+             Um dos MMORPGs mais antigos ainda em atividade, RuneScape proporciona um mundo vasto e aberto, onde os jogadores podem explorar, completar missões e desenvolver habilidades em um sistema sem classes fixas. Disponível tanto na versão clássica (Old School) quanto na moderna."
+          onclick="abrirModal(this)"
+        />
+        <img
+          class="imagem"
+          src="imagens/wow-2.png"
+          alt="Albion Online"
+          data-link="https://albiononline.com/home"
+          data-texto="
+             Um MMORPG sandbox com economia baseada nos jogadores e um mundo persistente onde cada decisão impacta a experiência. Com sistema de combate sem classes fixas, PvP de alto risco e um vasto sistema de crafting, Albion Online oferece liberdade total ao jogador."
+          onclick="abrirModal(this)"
+        />
+        <img
+          class="imagem"
+          src="imagens/wow-3.png"
+          alt="Black Desert Online"
+          data-link="https://www.sa.playblackdesert.com/Pt-BR/Main/Index?_region="
+          data-texto="
+             Conhecido por seus gráficos impressionantes e combate em tempo real, Black Desert Online traz um vasto mundo aberto com um sistema de progressão profundo, comércio, guerras de guilda e mecânicas detalhadas como pesca e gerenciamento de trabalhadores."
+          onclick="abrirModal(this)"
+        />
+        <img
+          class="imagem"
+          src="imagens/wow-4.png"
+          data-link="https://www.finalfantasyxiv.com/"
+          alt="Final Fantasy"
+          data-texto="
+             A Realm Reborn FFXIV oferece uma experiência rica em narrativa e mecânicas refinadas, ambientada no mundo de Eorzea. O jogo, que renasceu após um relançamento bem-sucedido, é um dos MMORPGs mais populares, com um forte foco em comunidade, raides desafiadoras e constantes atualizações."
+          onclick="abrirModal(this)"
+        />
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+          <span class="close" onclick="fecharModal()">&times;</span>
+          <div id="modalTitle"></div>
+          <div id="modalText"></div>
+          <div id="modalLink"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <p class="tp">Selecionamos os melhores MMORPGs do últimos meses, aqueles que talvez vale a pena investir um pouco do seu tempo, estes jogos acima, são aqueles onde a maioria dos jogadores costumam ter uma boa experiência, através da boa comunidade, estabilidade e sistemas inovadores e únicos.Apesar de bem falados, nem tudo são flores, há aquela <b>vantagem e desvantagem</b> em cada um desses. Montamos uma tabela com as vantagens e desvantagens de cada um desses.</p>
+    <br>
+    <br>
+    <table class="tabs">
+      <tr>
+      <th>Vantagens</th>
+      <th>World of Warcraft</th>
+      <th>Guild Wars 2</th>
+      <th>Albion Online</th>
+      <th>Runescape</th>
+      <th>Final Fantasy XIV</th>
+      <th>Black Desert</th>
+    </tr>
+
+    <tr>
+      <th>É grátis ou pago?</th>
+      <td>Pago</td>
+      <td>Gratuito</td>
+      <td>Gratuito</td>
+      <td>Gratuito</td>
+      <td>Pago</td>
+      <td>Pago</td>
+    </tr>
+    <tr>
+      <th>Otimizado para PCs modestos?</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não</td>
+      <td>Não</td>
+    </tr>
+    <tr>
+      <th>Tem comunidade Brasileira?</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Atualizações constantemente?</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>O jogo é traduzido?</th>
+      <td>Sim</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não</td>
+      <td>Sim</td>
+    </tr>
+    </table>
+    <br>
+    <br>
+    <p class="tp">De acordo com a tabela acima, sabemos que até mesmo esses MMORPGs populares entre a comunidade, tem suas vantagens e desvantagens, alguns são mais democráticos, já outros, é necessário fazer a compra deles, ou até mesmo pagar uma assinatura mensal para jogá-los, esse fator pode afastar bastante jogadores, considerando que nem todos pode se comprometer a um pagamento fixo mensal. Qual vocês pretendem investir tempo em <b>2025</b>? Votem no formulário da nossa comunidade que está logo abaixo: </p>
+
+    <h3 class="tz"></h3>
+
+    <div class="form">
+      <p>Qual desses você jogaria? Vote:</p>
+      <form>
+          <input type="radio" id="final-fantasy" name="fav_jogo" value="Final Fantasy XIV">
+          <label for="final-fantasy">Final Fantasy XIV</label><br>
+  
+          <input type="radio" id="world-of-warcraft" name="fav_jogo" value="World of Warcraft">
+          <label for="world-of-warcraft">World of Warcraft</label><br>
+  
+          <input type="radio" id="star-wars" name="fav_jogo" value="Star Wars: The Old Republic">
+          <label for="star-wars">Albion Online</label><br>
+  
+          <input type="radio" id="runescape" name="fav_jogo" value="Runescape">
+          <label for="runescape">Runescape</label><br>
+  
+          <input type="radio" id="guild-wars" name="fav_jogo" value="Guild Wars 2">
+          <label for="guild-wars">Guild Wars 2</label><br>
+  
+          <input type="radio" id="black-desert" name="fav_jogo" value="Black Desert">
+          <label for="black-desert">Black Desert</label><br>
+  
+          <button type="submit">Votar</button>
+      </form>
+  </div>
+    <div class="footer">
+     <p>Desenvolvido por: Álex Robert e Luiz Felipe<br></p>
+     <p>
+      <a href="https://github.com/robertifpb" target="_blank">
+        <img src="imagens/git.png" alt="github de ARobert" class="footer img">
+      </a>
+      <a href="mailto:luizfelipedesena@outlook.com" target="_blank">
+        <img src="imagens/email.png" alt="email de Luiz Felipe" class="footer img">
+      </a>
+     </p>
+    </div>
+   </div>
+  </body>
+</html>

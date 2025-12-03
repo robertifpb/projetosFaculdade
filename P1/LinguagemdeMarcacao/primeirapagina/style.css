@@ -1,0 +1,41 @@
+* {
+    margin-bottom: 8px;
+}
+.topo {
+    background: #D2691E;
+    text-align: center;
+    color: 	#F0F8FF;
+    border: 3px solid #000000;
+    font-size:larger;
+}
+
+.miniatura {
+    width: 65px;
+    justify-content: right;
+}
+
+.lista-item{
+    font-style: italic;
+    border: 3px solid #000000;
+    background-color: 	#FA8072
+}
+
+.final {
+    background: #D2691E;
+    text-align: center;
+    border: 3px solid #000000;
+    color: #F0F8FF;
+    font-size: larger;
+    font-family: Italic;
+}
+
+.link {
+    color:#F0F8FF;
+    text-decoration: none;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+
+}
